@@ -1,6 +1,6 @@
-# Copyright 2016 Valentine C
+# Copyright 2017 Valentine C
 
-FROM gliderlabs/alpine:3.3
+FROM alpine:3.7
 
 MAINTAINER Valentine C 
 
