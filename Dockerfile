@@ -6,7 +6,7 @@ MAINTAINER Valentine C
 
 ENV GOPATH /go
 
-RUN apk add --update go git musl-dev \
+RUN apk add --update go git musl-dev ca-certificates \
 	&& go get github.com/ncw/rclone \
 	&& cp /go/bin/rclone /usr/bin \
 	&& rm -rf /go \
