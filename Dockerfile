@@ -2,7 +2,7 @@
 
 FROM alpine:3.7
 
-MAINTAINER Valentine C 
+MAINTAINER Valentine C
 
 ENV GOPATH /go
 
